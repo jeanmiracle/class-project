@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    height: 100vh;
+    overflow-y: hidden;
+    background: #B2FEFA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#ffdde1,#E0EAFC, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#ffdde1,#E0EAFC, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+ }
+
+ header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 30px 50px 30px 50px;
+border: 2px solid black;
+ }
+
+ nav > ul{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    text-decoration: none;
+ }
+
+ .bostami{
+   height: 100%;
+width: 30vw;
+font-size: 2.5rem;
+ font-weight:900;  
+border: 2px solid black;
+ }
+ li > a{
+    text-decoration: none;
+    color: black;
+ }
+
+ li{
+    list-style-type: none;
+    height: 2.5em;
+    width: 14em;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 15px 0 0;
+    border-radius: 0.5rem;
+    background-color: white;
+    /* background-color: #B2FEFA; */
+    padding: 0 10px;
+ }
+
+ .main__container{
+   height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+ }
+ .mywoman__avatar-image{
+    height: 15em;
+    width: 15em;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+    overflow: hidden;
+    background-color: #f78996;
+    
+ }
+ .avatar__image{
+    /* opacity: 0.3; */
+ }
+ .social__media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    width: 14%;
+    height: 10%;
+ }
+
+ i{
+   font-size: large;
+ }
+
+ .media{
+   height: 2.5em;
+   width: 2.5em;
+   border: 2px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   border-radius: 0.5rem;
+ }
+ 
+.rotate{
+   display: inline-block;
+   /* -ms-transform: rotate(70deg);
+   -webkit-transform: rotate(70deg); */
+   transform: rotate(340deg);
+   font-size: 3rem;
+font-weight:lighter;
+font-family: 'Passions Conflict', cursive;
+}
+
+h4{
+   opacity: 0.5;
+}
+
+h2{
+   font-size: xx-large;
+}
+
+button{
+height: 12%;
+width: 17%;
+border-radius: 2rem;
+font-size: larger;
+background: #d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d53369, #f7797d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d53369, #f7797d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+align-items: center;
+padding-left: 30px;
+color: white;
+}
+
+.intro__color{
+   color: #f7797d;
+   margin: 0;
+   /* font-size: xx-large;
+   font-weight: bolder; */
+   height: 100%;
+width: 30vw;
+border: 2px solid black;
+letter-spacing: 3px;
+}
+
+.dextro__color{
+   color:#d53369;
+   margin: 0;
+   /* font-size: xx-large;
+   font-weight: bolder; */
+   height: 100%;
+width: 30vw;
+border: 2px solid black;
+letter-spacing: 3px;
+}
+
+#moon{
+   height: 2.5em;
+   width: 5em;
+   border-radius: 3rem;
+}
+
+#first > a{
+   color: white;
+}
+
+#first {
+background: #d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,  #f7797d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li:hover{
+   color: white;
+   background: #d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,  #f7797d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a:hover{
+   color: white;
+}
+
+
+button:hover{
+   background: #d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,  #f7797d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.media:hover{
+   color: white;
+   background: #d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,  #f7797d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+i:hover{
+   background: #d53369;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,  #f7797d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bxl-facebook:hover{
+   color: white;
+}
